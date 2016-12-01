@@ -1,0 +1,30 @@
+/* Standard (Mozilla) */
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 600ms infinite;
+}
+
+/* Chrome & Safari */
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.blink {
+  -webkit-animation: blink 750ms 2;
+}
+.blonk {
+  -webkit-animation: blink 1000ms 3;
+}
